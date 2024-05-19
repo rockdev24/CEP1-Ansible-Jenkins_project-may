@@ -3,7 +3,7 @@
   become: true
   become_user: root
   vars:
-   repo_url: https://github.com/Sonal0409/DevOpsCodeDemo.git
+   repo_url: https://github.com/rockdev24/CEP1-Ansible-Jenkins_project-may.git
   tasks:
   - name: Clone the repo on worker node
     git: repo={{repo_url}} dest=/tmp/devopscode
